@@ -1,0 +1,130 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	color:#545454;
+	background-color: #15384C;
+	margin:0;
+	padding:0;
+}
+#container{
+	width:1200px;
+	margin:50px auto;
+	background-color: #ffffff;
+	
+}
+#header{
+	height: 150px;
+	position:relative;	
+	background-color: #cf4a41;
+}
+#header h1{
+	position:relative;
+	bottom:15px;
+	color:#fff;	
+}
+#logo{
+	width:590px;
+	padding:60px 0 0 50px;
+	float:left;
+}
+#nav{
+	float:left;
+	padding:60px 50px 0 0;
+	list-style: none;
+}
+#nav ul{
+	list-style: none;
+}
+#nav li{
+	float:left;
+}
+#nav a{
+	padding:7px 0 7px 30px;
+	text-decoration: none;
+	color:#ffffff;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+/** CONTENT */
+#page{
+	width:1100px;
+	margin: 0 50px;
+	padding: 50px 0;
+}
+
+#content {
+	float: left;
+	width: 750px;
+}
+
+#content h2 {
+	font-size: 2.10em;
+}
+
+/** SIDEBAR */
+
+.sidebar {
+	float: left;
+	width: 300px;
+	margin-left:50px;
+}
+
+/* Footer */
+
+#footer {
+	clear:left;
+	overflow: hidden;
+	margin: 0px 50px;
+	padding: 30px 0px;
+	border-top: 1px solid #ccc;
+}
+
+#footer p {
+	text-align: center;
+}
+
+#footer a {
+	color: #545454;
+}
+
+/* Three Column */
+
+.three-column{
+	padding:30px;
+	margin:auto;
+	width:100%;	
+}
+
+.three-column .box {
+	float: left;
+	width: 320px;
+	margin-right:40px;
+}
+
+/* side bar list style */
+
+.sideBarMenu{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.sideBarMenu li {
+	padding: 10px 0px 15px 0px;
+	border-top: 1px solid #DEDEDE;
+}
+
+.sideBarMenu a {
+	text-decoration: none;
+	color: #545454;
+}
+
+.sideBarMenu a:hover {
+	text-decoration: underline;
+}
+
+.sideBarMenu .first {
+	padding-top: 0px;
+	border-top: none;
+}
